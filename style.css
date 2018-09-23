@@ -3,3 +3,46 @@
   margin: 0;
   padding: 0;
 }
+
+header
+{
+  background-image: url(grey.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.mainnav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.mainnav li {
+  display: inline-block;
+}
+
+.mainnav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.mainnav li.active a {
+  border: 1px solid white;
+}
+
+.mainnav li a:hover {
+  border: 1px solid white;
+
+}
+
+.logo img
+{
+  width: 150px;
+  height: auto;
+  float: left;
+}
