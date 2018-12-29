@@ -1,48 +1,9 @@
-*
-{
+body{
   margin: 0;
-  padding: 0;
-}
-
-header
-{
-  background-image: url(images/download.jpg);
-  height: 100vh;
+  padding:0;
+  
+  background-image: url("images/download.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-}
-
-
-.mainnav {
-  float: right;
-  list-style: none;
-  margin-top: 30px;
-}
-
-.mainnav li {
-  display: inline-block;
-}
-
-.mainnav li a {
-  color: black;
-  text-decoration: none;
-  padding: 5px 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-}
-
-.mainnav li.active a {
-  border: 1px solid black;
-}
-
-.mainnav li a:hover {
-  border: 1px solid black;
-
-}
-
-.logo img
-{
-  width: 150px;
-  height: auto;
-  float: left;
 }
