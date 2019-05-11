@@ -7,8 +7,7 @@ header{
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
-  z-index: 1;
+  left:0;
 }
 
 .ContainHead{
@@ -19,39 +18,47 @@ header{
 }
 
 
-a {
+.name {
+
+  font-size: 20px;
+  font-weight: 100;
   text-decoration: none;
-  color: #4c5364;
-}
-
-.Name {
-  color: #4c5364;
-
-
-
-}
-
-.mainnav li {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-48%);
+  left: 0;
 }
 
-.mainnav li a {
-
+nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+nav a {
   color: #4c5364;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-
+  font-family: Raleway;
+  font-size: 14px;
+  text-transform: lowercase;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  display: inline-block;
+  padding-bottom: .4em;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 35px;
 }
 
-.mainnav li.active a {
-  border: 1px solid black;
-}
 
 
 
-
-
-}
 </style>
 
 
@@ -60,17 +67,11 @@ a {
 
 <header>
   <div class="ContainHead">
-    <div class="Name">
-      <a href="index.html"> <center> Theo Hronowsky </center></a>
-    </div>
-
-
-
-
-    <ul class="mainnav">
-      <li><a href="aboutme.html"> ABOUT ME </a></li>
-      <li><a href="projects.html"> PROJECTS </a></li>
-      <li><a href="Resumedoc.html"> RESUME </a></li>
-    </ul>
+      <a href="index.html" class = "name"> Theo Hronowsky</a>
+      <nav>
+        <li><a href="aboutme.html"> ABOUT ME </a></li>
+        <li><a href="projects.html"> PROJECTS </a></li>
+        <li><a href="Resumedoc.html"> RESUME </a></li>
+    </nav>
   </div>
 </header>
